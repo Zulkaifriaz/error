@@ -37,6 +37,30 @@ html, body, canvas {
 }
 
 
+#installBtn {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	z-index: 9999;
+	display: none;
+	font-weight: bold;
+}
+
+#installBtn:hover {
+	background-color: #45a049;
+}
+
+#installBtn:active {
+	background-color: #3d8b40;
+}
+
 *:not(input):not(textarea) {
 -moz-user-select: -moz-none;
 -khtml-user-select: none;
